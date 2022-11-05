@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: "https://fonts.googleapis.com/css2?family=Poppins" */
+
+}
+
+
+nav{
+    font-size: 1.3rem;
+   
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(36, 13, 13);
+    padding: 12px 5px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+  padding: 20px;
+    
+
+}
+nav ul li{
+    padding : 0 10px 0 10px;
+}
+.btn1{
+    color : #29d9d5;
+    text-decoration: none;
+    padding: 20px;
+}
+.btn1:hover{
+    border: 2px solid #29d9d5;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+/* .navbar{
+    
+    
+} */
+body{
+    font-family: "https://fonts.googleapis.com/css2?family=Poppins";
+   font-size: 20px;
+    
+}
+#images{
+    padding: 20px;
+}
+#start{
+    background-color:  rgba(255, 192, 203, 0.506);
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+   margin-top: 20px;
+   border-radius: 5px;
+}
+span{
+    color: darkblue;
+    font-weight:1000;
+}
+.div2{
+    
+    width: 30vw;
+    height: 30vh;
+   position: absolute;
+   padding: 10px;
+   margin-left: 50px;
+   margin-right: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  
+    
+}
+
